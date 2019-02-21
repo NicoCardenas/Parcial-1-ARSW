@@ -1,0 +1,28 @@
+1. Establezca verdadero o falso en las siguientes sentencias:
+	a. Rest es un protocolo que permite la interoperabilidad.
+	   R/: falso 
+	b. Rest es una tecnología que está basada sobre el protocolo http.
+	   R/: verdadero
+	c. SOAP es un protocolo que tiene el objetivo transferir mensajes entre aplicaciones distribuidas.
+	   R/: verdadero
+	d. Los componentes de rest son nouns,Adjectives,Representations.
+	   R/: verdadero
+	e. SOA es un protocolo de transferencia de mensajes entre aplicaciones distribuidas.
+	   R/: falso
+2. Explique cada uno de los niveles de madurez de REST (Gloria REST)
+   Nivel 0: globalizacion de la relacion entre servicions.
+   Nivel 1: especificacion de los tipos de servicios.
+   Nivel 2: definicion de una estructura distribuida.
+   Nivel 3: 
+3. Cuales son los componentes del SOAP-ENVELOPE y para que sirven
+4. Defina la diferencia de un estilo arquitectónico cliente servidor y un P2P
+   En la arquitectura cliente-servidor la transferencia de informacion se realiza de manera conocida por parte del cliente, el la P2P el cliente no puede determina de donde esta la informacion.  
+5. Escriba un ejemplo de un programa P2P y explique por que es P2P
+   Utorrent, es P2P debido el protocolo BitTorrent que funciona de manera distribuida en una red con muchos nodos en la cual la informacion es tranferia de muchas fuentes al mismo tiempo.
+6. Qué es WSDL y para que sirve?
+   es un archivo en el cual se describe la estructura de las resputas entre servicios, permite definir la estructura de etiquetas por la cual dos servicios se van a comunicar.
+7. Explique que significa que un objeto sea Thread-Safety
+   Thread-safety es el termino que determina si un objeto es confiable en su implementacion, esto garantizar un correcto funcionamiento en concurrencio o paralelismo, quitando los problemas de mala sobrescritura o resultados dependientes en el orden de ejecucion de varios hilos.
+8. Explique los tipos y las variables atómicas.
+   Las variables atomicas son creadas para definir un tipo primitivo con la caracteristica Thread-safety, son tipos de datos synchronos que son mutables con funciones synchronas para garantizar una independencia de mutabilidad con respecto al orden de ejecucion de varios hilos.
+
