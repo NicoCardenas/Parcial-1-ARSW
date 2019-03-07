@@ -7,11 +7,11 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @EnableAutoConfiguration
-@ComponentScan
+@ComponentScan(basePackages = {"edu.eci.arsw"})
 public class GuidFinderApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GuidFinderApiApplication.class, args);
+            SpringApplication.run(GuidFinderApiApplication.class, args);
 	}
 
 }
